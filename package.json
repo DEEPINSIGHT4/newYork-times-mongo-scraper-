@@ -1,0 +1,25 @@
+{
+  "name": "newyork_times_articles",
+  "version": "1.0.0",
+  "description": "scraps articles from newyork times and users able to add notes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DEEPINSIGHT4/newYork-times-mongo-scraper-.git"
+  },
+  "author": "deepak_acchami",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DEEPINSIGHT4/newYork-times-mongo-scraper-/issues"
+  },
+  "homepage": "https://github.com/DEEPINSIGHT4/newYork-times-mongo-scraper-#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "mongojs": "^2.4.0",
+    "request": "^2.81.0"
+  }
+}
